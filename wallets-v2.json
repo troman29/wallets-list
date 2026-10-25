@@ -26,7 +26,7 @@
       },
       {
         "type": "sse",
-        "url": "https://tonconnectbridge.wallet.ice.io/bridge/"
+        "url": "https://ion.windbit.dev/bridge/"
       }
     ],
     "platforms": ["chrome", "firefox", "macos", "windows", "linux", "ios", "android"],
