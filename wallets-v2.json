@@ -11,5 +11,35 @@
       }
     ],
     "platforms": ["chrome"]
+  },
+  {
+    "app_name": "ionwallet",
+    "name": "ION Wallet",
+    "image": "https://raw.githubusercontent.com/troman29/ion-wallet/master/public/icon-256x256.png",
+    "about_url": "https://wallet.ice.io",
+    "universal_url": "https://connect.wallet.ice.io",
+    "deepLink": "ion-gateway://",
+    "bridge": [
+      {
+        "type": "js",
+        "key": "ionwallet"
+      },
+      {
+        "type": "sse",
+        "url": "https://tonconnectbridge.wallet.ice.io/bridge/"
+      }
+    ],
+    "platforms": ["chrome", "firefox", "macos", "windows", "linux", "ios", "android"],
+    "features": [
+      {
+        "name": "SendTransaction",
+        "maxMessages": 4,
+        "extraCurrencySupported": false
+      },
+      {
+        "name": "SignData",
+        "types": ["text", "binary", "cell"]
+      }
+    ]
   }
 ]
