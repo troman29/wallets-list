@@ -26,7 +26,7 @@
       },
       {
         "type": "sse",
-        "url": "https://ion.windbit.dev/bridge/"
+        "url": "https://bridge.ionwallet.io/bridge/"
       }
     ],
     "platforms": ["chrome", "firefox", "macos", "windows", "linux", "ios", "android"],
