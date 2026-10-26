@@ -14,7 +14,7 @@
   },
   {
     "app_name": "ionwallet",
-    "name": "ION Wallet",
+    "name": "ION Wallet (ionwallet.io)",
     "image": "https://raw.githubusercontent.com/troman29/ion-wallet/master/public/icon-256x256.png",
     "about_url": "https://ionwallet.io",
     "universal_url": "https://connect.ionwallet.io",
